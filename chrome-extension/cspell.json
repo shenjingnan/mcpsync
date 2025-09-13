@@ -1,0 +1,36 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [],
+  "dictionaryDefinitions": [
+    {
+      "name": "typescript",
+      "path": "@cspell/dict-typescript/cspell-ext.json"
+    },
+    {
+      "name": "node",
+      "path": "@cspell/dict-node/cspell-ext.json"
+    },
+    {
+      "name": "npm",
+      "path": "@cspell/dict-npm/cspell-ext.json"
+    },
+    {
+      "name": "html",
+      "path": "@cspell/dict-html/cspell-ext.json"
+    },
+    {
+      "name": "css",
+      "path": "@cspell/dict-css/cspell-ext.json"
+    }
+  ],
+  "dictionaries": ["typescript", "node", "npm", "html", "css"],
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".wxt/**",
+    "*.json",
+    "*.lock"
+  ]
+}

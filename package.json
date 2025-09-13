@@ -9,5 +9,8 @@
   "keywords": ["mcp", "chrome"],
   "author": "shenjingnan(sjn.code@gmail.com)",
   "license": "MIT",
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.13.1",
+  "publishConfig": {
+    "access": "public"
+  }
 }
